@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8089/people'
+const API_URL = 'https://cokerss.duckdns.org/pmng-api/people'
 
 const findAll = async () => {
     let tbody = document.getElementById('tbody');
